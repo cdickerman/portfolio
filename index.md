@@ -1,4 +1,4 @@
-#Catherine Dickerman's Portfolio
+# Catherine Dickerman's Portfolio
 ## 2018
 
 * Kaleidoscope Project
