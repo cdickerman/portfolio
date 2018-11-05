@@ -1,15 +1,11 @@
 
-  public void settings()
-      {
-          size(1000,800);
-      }
   public int state(){
     return state;
   }
 
   public void setup()
     {
-
+      size(1000,800);
       x = width/2;
       y = height/2;
     //  minim = new Minim(this);
