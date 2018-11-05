@@ -6,5 +6,5 @@
 
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources="danceprojection.pde Particle.pde Project.pde Ball.pde Drawable.pde Polygon.pde" 
+<canvas data-processing-sources="danceprojection.pde Particle.pde" 
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
