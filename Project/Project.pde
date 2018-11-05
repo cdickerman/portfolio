@@ -1,7 +1,7 @@
 
   public void settings()
       {
-          fullScreen();
+          size(1000,800);
       }
   public int state(){
     return state;
@@ -68,16 +68,16 @@
           textAlign(CENTER, BOTTOM);
           textSize(20);
           fill(180);
-          text("key: ", (width/2), (height/2)+250);
-          text("1 = rectangles", (width/2), (height/2)+270);
-          text("2 = transparent rectangles", (width/2), (height/2)+290);
-          text("3 = triangles", (width/2), (height/2)+310);
-          text("4 = sqaures", (width/2), (height/2)+330);
-          text("5 = pentagons", (width/2), (height/2)+350);
-          text("6 = hexagon", (width/2), (height/2)+370);
-          text("7 = heptagons", (width/2), (height/2)+390);
-          text("8 = octagons", (width/2), (height/2)+410);
-          text("9 = nonoagons", (width/2), (height/2)+430);
+          text("key: ", (width/2), (height/2)+200);
+          text("1 = rectangles", (width/2), (height/2)+220);
+          text("2 = transparent rectangles", (width/2), (height/2)+240);
+          text("3 = triangles", (width/2), (height/2)+260);
+          text("4 = sqaures", (width/2), (height/2)+280);
+          text("5 = pentagons", (width/2), (height/2)+300);
+          text("6 = hexagon", (width/2), (height/2)+320);
+          text("7 = heptagons", (width/2), (height/2)+340);
+          text("8 = octagons", (width/2), (height/2)+360);
+          text("9 = nonoagons", (width/2), (height/2)+380);
         }
 
 }
