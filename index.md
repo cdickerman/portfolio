@@ -6,6 +6,7 @@
 
 
 ### visualization will be used in my school's dance concert
+note: scaling is off in the embedding, shouldn't be collecting in the top left
 
 <script src="processing.min.js"></script>
 <canvas data-processing-sources= "danceprojection/danceprojection.pde danceprojection/Particle.pde"
@@ -13,7 +14,7 @@
 
 
 ### this drawing program was my final project in AP Computer Science.
-note: colors don't transfer exactly to this embedding. 
+note: colors don't transfer exactly to this embedding.
 
 <img src="screen-0447.png">
 
