@@ -1,8 +1,8 @@
-# Catherine Dickerman's Portfolio
-## 2018
+# welcome to my portfolio!
+## 2018 projects
 
-* Dance Projection
-* Kaleidoscope Project
+* dance projection visuals
+* kaleidoscope drawing program
 
 
 ### visualization will be used in my school's dance concert
@@ -13,6 +13,7 @@
 
 
 ### this drawing program was my final project in AP Computer Science.
+note: colors don't transfer exactly to this embedding. 
 
 <img src="screen-0447.png">
 
