@@ -24,7 +24,7 @@ Particle createParticle()
       particles.add(p);
     }
     
-    fullScreen();
+    size(800,800);
     background(0);
 }
 
