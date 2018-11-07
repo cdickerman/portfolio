@@ -14,5 +14,6 @@
 
 ### this drawing program was my final project in AP Computer Science.
 
+<img src="screen-0447.jpg" alt="screenshot1">
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="Project/Project.pde Project/Polygon.pde Project/Ball.pde Project/Drawable.pde" style="display:block; margin-left:auto; margin-right:auto;"></canvas>
