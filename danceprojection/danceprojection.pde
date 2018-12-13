@@ -1,12 +1,27 @@
-//stage tests, 
+//to do:
+//  figure out what dimensions the "box" should be
+//  figure threshold that works best ~1000
+//  figure out if kinect should be front / back -> back
+//
+// have mouse act as a back up plan
+// change color of the ball
+// adjust magnitude of the push
+// slices
+
+import org.openkinect.freenect.*;
+import org.openkinect.processing.*;
+
+KinectTracker tracker;
+Kinect kinect;
+
  
- int nparticles = 10222;
+ int nparticles = 9222;
  ArrayList<Particle> particles = new ArrayList<Particle>();
  
 Particle createParticle()
 {
-  int r = (int)random(2, 3.2);
-  PVector position = new PVector(random(r, width-r), random(r, height-r));
+  int r = (int)random(4, 6.2);
+  PVector position = new PVector(random(r + 250, width-r-250), random(r, height-r-620));
   PVector velocity = PVector.random2D();
   velocity.setMag(1);
   int c = color(random(50, 255), random(50, 255), random(50, 255));
@@ -17,21 +32,32 @@ Particle createParticle()
 }
 
   void setup() {
+    
+    background(0);
+    
     for (int i = 0; i < nparticles; i++)
     {
       Particle p = createParticle();
       particles.add(p);
     }
     
-    size (800,800);
+    fullScreen();
+    //size (1600,800);
     background(0);
-    //noCursor();
+    noCursor();
+    
+  kinect = new Kinect(this);
+  tracker = new KinectTracker();
 }
+
+PVector prev = new PVector(0,0);
+PVector current = new PVector(0,0);
+
 
 void draw() 
 {
-
- background(2); //take this out for cool line drawing effect (might also need to remove bounces off walls)
+ background(2);//take this out for cool line drawing effect (might also need to remove bounces off walls)
+ 
  for (Particle p : particles)
     {
       p.display();
@@ -40,40 +66,65 @@ void draw()
  fill(100);
  ellipse(mouseX, mouseY, 10, 10);
  
-    
+ current = new PVector(tracker.getLerpedPos().x, tracker.getLerpedPos().y);
+ 
  for (Particle p: particles)
   {
-   /* PVector force = new PVector(mouseX, mouseY);
-    PVector pforce = new PVector(pmouseX, pmouseY);
-    force.sub(pforce);
-    force.setMag((pmouseX-mouseX)+(pmouseY-mouseY));
-    float distance = dist(p.position.x, p.position.y, mouseX, mouseY);
-    force.mult(-1/distance); 
-    */
+    PVector v = tracker.getLerpedPos().copy();  //need to have a copy in order to avoid messing with the actual vector.
+    v.x *= ((width-500.0f)/kinect.width);
+    v.y *= (height-620.0f)/kinect.height;
     
-    PVector push = new PVector(mouseX-p.position.x, mouseY-p.position.y);
+    PVector push = new PVector(v.x-p.position.x, v.y-p.position.y); //subbed in tracker pos for mouse
+    //PVector push = new PVector(mouseX-p.position.x, mouseY-p.position.y); //subbed in tracker pos for mouse
     PVector pull = new PVector(p.startXPos - p.position.x, p.startYPos - p.position.y);
     float pushMag = push.mag();
-    push.mult(.3/(sq(pushMag)));
-    push.mult(sqrt(sq(mouseX-pmouseX)+sq(mouseY-pmouseY)));
+    push.mult(.85/(sq(pushMag)));
+    push.mult(sqrt(sq(current.x-prev.x)+sq(current.y-prev.y))); //is there a previous position// how to find
     
     p.push(push);
     p.pull(pull);
     
-    //p.velocity.mult(p.time);
+    if (mouseX > 250 && mouseX < width-250 && mouseY < height-600)
+    {
+     
+    PVector push2 = new PVector(mouseX-p.position.x, mouseY-p.position.y); //subbed in tracker pos for mouse
+     float push2Mag = push2.mag();
+    push2.mult(.3/(sq(push2Mag)));
+    push2.mult(sqrt(sq(pmouseX-mouseX)+sq(pmouseY-mouseY)));
+    p.push(push2);
+    p.pull(pull);
+    }
     
-    //find vector from mouse to p, scale into unit vector , scale by the distance between mouse and pmouse
-   // float distance = dist(p.position.x, p.position.y, mouseX, mouseY)<70);
     
+  
   }
+  
+    tracker.track();
+  
+   // Let's draw the raw location
+    PVector v1 = tracker.getPos();
+    fill(10);
+    noStroke();
+    ellipse(v1.x *((width-250.0f)/kinect.width), v1.y * ((height-620.0f)/kinect.height), 20, 20);
+  
+    // Let's draw the "lerped" location
+    PVector v2 = tracker.getLerpedPos();
+    fill(5);
+    noStroke();
+    ellipse(v2.x *((width-250.0f)/kinect.width), v2.y * ((height-620.0f)/kinect.height), 20, 20); 
+
+    prev = current;
 }
 
 void mousePressed() {
  for (Particle p: particles){
-   p.position.x = random(0,width);
-   p.position.y = random(0,height);
+   p.position.x = random(250,width-250);
+   p.startXPos = p.position.x;
+   p.position.y = random(0,height-620);
+   p.startYPos = p.position.y;
    p.velocity = PVector.random2D();
    p.velocity.setMag(1);
+   
 
   }
 }
