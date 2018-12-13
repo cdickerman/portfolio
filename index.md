@@ -6,7 +6,7 @@
 
 
 ### visualization will be used in my school's dance concert
-note: scaling is off in the embedding, shouldn't be collecting in the top left
+note: scaling is off in the embedding, shouldn't be collecting in the top left (can click to restart )
 
 <script src="processing.min.js"></script>
 <canvas data-processing-sources= "particle_p/particle_proj.pde danceprojection/Particle.pde"
