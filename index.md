@@ -9,7 +9,7 @@
 note: scaling is off in the embedding, shouldn't be collecting in the top left (can click to restart )
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources= "particle_proj/particle_proj.pde danceprojection/Particle.pde"
+<canvas data-processing-sources= "particle_proj/particle_proj.pde particle_proj/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
 
