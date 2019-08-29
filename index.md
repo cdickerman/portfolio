@@ -1,20 +1,25 @@
-# welcome to my portfolio!
-## 2018 projects
-
-* dance projection visuals
-* kaleidoscope drawing program
+# Catherine Dickerman's Portfolio
 
 
-### visualization will be used in my school's dance concert
-note: scaling is off in the embedding, shouldn't be collecting in the top left (can click to restart )
+## Honors Computer Science Projects 2018-2019 (11th Grade)
+
+* Dance Projections
+* CPR app
+* Topographic Sandbox
+
+### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources= "particle_proj/particle_proj.pde particle_proj/Particle.pde"
+<canvas data-processing-sources= "danceprojection/danceprojection.pde danceprojection/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
+## AP Computer Science 2017-2018 (10th grade)
 
-### this drawing program was my final project in AP Computer Science.
-note: colors don't transfer exactly to this embedding.
+* Kaleidoscope Project
+
+### This drawing program was my final project in AP Computer Science.
+
+note: colors don’t transfer exactly to this embedding.
 
 <img src="screen-0447.png">
 
