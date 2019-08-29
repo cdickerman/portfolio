@@ -5,7 +5,7 @@
 * Kaleidoscope Project
 
 
-### visualization will be used in my school's dance concert
+### visualizations used as a part of my school's dance concert
 
 <script src="processing.min.js"></script>
 <canvas data-processing-sources= "danceprojection/danceprojection.pde danceprojection/Particle.pde"
