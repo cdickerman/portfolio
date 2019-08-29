@@ -4,15 +4,23 @@
 * Dance Projection
 * Kaleidoscope Project
 
+## Honors Computer Science Projects 2018-2019 (11th Grade)
 
-### visualizations used as a part of my school's dance concert
+* Dance Projections
+* CPR app
+* Topographic Sandbox
+
+### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
 
 <script src="processing.min.js"></script>
 <canvas data-processing-sources= "danceprojection/danceprojection.pde danceprojection/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
+## AP Computer Science 2017-2018 (10th grade)
 
-### this drawing program was my final project in AP Computer Science.
+* Kaleidoscope Project
+
+### This drawing program was my final project in AP Computer Science.
 
 <img src="screen-0447.png">
 
