@@ -5,12 +5,17 @@
 
 * Dance Projections
 ### CPR App
-app made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency.
+App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency.
 
-<img src="pics/cpr1.png">
-<img src="pics/cpr2.png">
-<img src="pics/cpr3.png">
-<img src="pics/cpr4.png">
+[Link to app](https://kyrakraft.github.io/cprtrainingapp/)
+
+
+<a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Blah</a>
+
+<img src="pics/cpr1.png" width="100">
+<img src="pics/cpr2.png" width="100">
+<img src="pics/cpr3.png" width="100">
+<img src="pics/cpr4.png" width="100">
 
 * Topographic Sandbox
 
