@@ -7,15 +7,12 @@
 ### CPR App
 App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency.
 
-[Link to app](https://kyrakraft.github.io/cprtrainingapp/)
+<a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Click Here to View App</a>
 
-
-<a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Blah</a>
-
-<img src="pics/cpr1.png" width="100">
-<img src="pics/cpr2.png" width="100">
-<img src="pics/cpr3.png" width="100">
-<img src="pics/cpr4.png" width="100">
+<img src="pics/cpr1.png" width="200">
+<img src="pics/cpr2.png" width="200">
+<img src="pics/cpr3.png" width="200">
+<img src="pics/cpr4.png" width="200">
 
 * Topographic Sandbox
 
