@@ -11,10 +11,10 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 
 <a href="https://github.com/kyrakraft/cprtrainingapp" target="_blank">Code Repository</a>
 
-<img src="pics/cpr1.png" width="220">
-<img src="pics/cpr2.png" width="220">
-<img src="pics/cpr3.png" width="220">
-<img src="pics/cpr4.png" width="220">
+<img src="pics/cpr1.png" width="210">
+<img src="pics/cpr2.png" width="210">
+<img src="pics/cpr3.png" width="210">
+<img src="pics/cpr4.png" width="210">
 
 * Topographic Sandbox
 
