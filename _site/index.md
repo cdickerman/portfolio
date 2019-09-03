@@ -8,6 +8,9 @@
 
 * Dance Projections
 * CPR app
+
+<img src = "cpr1.png"> <img src = "cpr2.png"> <img src = "cpr3.png"> <img src = "cpr4.png">
+
 * Topographic Sandbox
 
 <img src="IMG_6430.jpg"> <img src = "IMG_6431.jpg"
