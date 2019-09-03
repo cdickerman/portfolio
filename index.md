@@ -6,11 +6,15 @@
 * Dance Projections
 * CPR app
 
-<img src=pics/"cpr1.png"> <img src=pics/"cpr2.png"> <img src=pics/"cpr3.png"> <img src=pics/"cpr4.png">
+<img src=pics/"cpr1.png">
+<img src=pics/"cpr2.png">
+<img src=pics/"cpr3.png">
+<img src=pics/"cpr4.png">
 
 * Topographic Sandbox
 
-<img src=pics/"IMG_6430.jpg"> <img src=pics/"IMG_6431.jpg">
+<img src=pics/"IMG_6430.jpg">
+<img src=pics/"IMG_6431.jpg">
 
 ### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
 
