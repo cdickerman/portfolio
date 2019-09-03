@@ -4,7 +4,8 @@
 ## Honors Computer Science Projects 2018-2019 (11th Grade)
 
 * Dance Projections
-* CPR app
+### CPR App
+app made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency.
 
 <img src="pics/cpr1.png">
 <img src="pics/cpr2.png">
