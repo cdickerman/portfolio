@@ -3,16 +3,14 @@
 
 ## Honors Computer Science Projects 2018-2019 (11th Grade)
 
-* Dance Projections
+### Dance Projections
 ### CPR App
-App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency.
+App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR in case of an emergency. <a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Click Here to View App</a>
 
-<a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Click Here to View App</a>
-
-<img src="pics/cpr1.png" width="200">
-<img src="pics/cpr2.png" width="200">
-<img src="pics/cpr3.png" width="200">
-<img src="pics/cpr4.png" width="200">
+<img src="pics/cpr1.png" width="235">
+<img src="pics/cpr2.png" width="235">
+<img src="pics/cpr3.png" width="235">
+<img src="pics/cpr4.png" width="235">
 
 * Topographic Sandbox
 
