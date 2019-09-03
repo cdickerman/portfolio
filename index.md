@@ -6,13 +6,15 @@
 ### Dance Projections
 ### CPR App
 App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR for educational purposes.
+
 <a href="https://kyrakraft.github.io/cprtrainingapp/" target="_blank">Web Version</a>
+
 <a href="https://github.com/kyrakraft/cprtrainingapp" target="_blank">Code Repository</a>
 
-<img src="pics/cpr1.png" width="230">
-<img src="pics/cpr2.png" width="230">
-<img src="pics/cpr3.png" width="230">
-<img src="pics/cpr4.png" width="230">
+<img src="pics/cpr1.png" width="220">
+<img src="pics/cpr2.png" width="220">
+<img src="pics/cpr3.png" width="220">
+<img src="pics/cpr4.png" width="220">
 
 * Topographic Sandbox
 
