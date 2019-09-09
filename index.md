@@ -22,6 +22,10 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 <img src="pics/IMG_6430.jpg">
 <img src="pics/IMG_6431.jpg">
 
+<video width="1200" height="700" controls>
+<source src="pics/sandbox vid.mov" type="video/mov"
+</video>
+
 ### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
 
 <script src="processing.min.js"></script>
