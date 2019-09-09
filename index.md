@@ -25,9 +25,7 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 <img src="pics/IMG_6430.jpg">
 <img src="pics/IMG_6431.jpg">
 
-<video width="800" height="600" controls>
-<source src="pics/sandboxvid.mov" type="video/mov">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=68YPFD68sAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Dance Concert visualization
 Two sets of visualizations used as background for pieces in the All School Dance Concert.
