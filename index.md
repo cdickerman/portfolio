@@ -24,7 +24,7 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 <img src="pics/IMG_6431.jpg">
 
 <video width="800" height="350" controls>
-<source src="pics/sandbox vid.mov" type="video/mov"
+<source src="pics/sandbox vid.mov" type="video/mov">
 </video>
 
 ### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
