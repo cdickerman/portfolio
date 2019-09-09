@@ -26,7 +26,7 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 <img src="pics/IMG_6431.jpg">
 
 <video width="800" height="600" controls>
-<source src="pics/sandbox vid.mov" type="video/mov">
+<source src="pics/sandboxvid.mov" type="video/mov">
 </video>
 
 ### Dance Concert visualization
