@@ -16,13 +16,14 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 <img src="pics/cpr3.png" width="200">
 <img src="pics/cpr4.png" width="200">
 
-* Topographic Sandbox
+### Topographic Sandbox
+Program projects depth information collected by a Kinect Sensor onto sandbox, allowing users to manipulate the topography of the sand while the program reacts in real time.
 
 <img src="pics/IMG_6429.jpg">
 <img src="pics/IMG_6430.jpg">
 <img src="pics/IMG_6431.jpg">
 
-<video width="1200" height="700" controls>
+<video width="800" height="350" controls>
 <source src="pics/sandbox vid.mov" type="video/mov"
 </video>
 
