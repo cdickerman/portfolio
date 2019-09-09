@@ -1,3 +1,5 @@
+<script type="text/javascript" src="processing.js"></script>
+
 # Catherine Dickerman's Portfolio
 
 
@@ -30,7 +32,8 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 ### Dance Concert visualization
 Two sets of visualizations used as background for pieces in the All School Dance Concert.
 
-<script src="processing.min.js"></script>
+
+
 <canvas data-processing-sources= "particle_proj copy/particle_proj.pde particle_proj copy/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
