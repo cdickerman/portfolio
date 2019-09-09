@@ -1,6 +1,6 @@
 <script type="text/javascript" src="processing.js"></script>
 
-# Catherine Dickerman's Portfolio
+# Catherine Dickerman's CS Portfolio
 
 
 ## Honors Computer Science Projects 2018-2019 (11th Grade)
