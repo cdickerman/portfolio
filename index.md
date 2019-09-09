@@ -27,10 +27,11 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 <source src="pics/sandbox vid.mov" type="video/mov">
 </video>
 
-### visualizations used as a part of my school's dance concert, particles controlled movements of dancers tracked by a Kinect video sensor
+### Dance Concert visualization
+Two sets of visualizations used as background for pieces in the All School Dance Concert.
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources= "danceprojection/danceprojection.pde danceprojection/Particle.pde"
+<canvas data-processing-sources= "particle_proj copy/particle_proj.pde particle_proj copy/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
 ## AP Computer Science 2017-2018 (10th grade)
