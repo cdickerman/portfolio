@@ -25,14 +25,16 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 <img src="pics/IMG_6430.jpg">
 <img src="pics/IMG_6431.jpg">
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/watch?v=68YPFD68sAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/68YPFD68sAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Dance Concert visualization
 Two sets of visualizations used as background for pieces in the All School Dance Concert.
 
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources= "particle_proj/particle_proj.pde particle_proj/Particle.pde"
+<canvas data-processing-sources="particle_proj/particle_proj.pde particle_proj/Particle.pde"
     style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
 ## AP Computer Science 2017-2018 (10th grade)
