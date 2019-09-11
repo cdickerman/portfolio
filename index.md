@@ -22,7 +22,6 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 Program projects depth information collected by a Kinect Sensor onto sandbox, allowing users to manipulate the topography of the sand while the program reacts in real time.
 
 <img src="pics/IMG_6428.jpg" width ="300">
-<img src="pics/IMG_6429.jpg" width ="400">
 <img src="pics/IMG_6431.jpg" width ="300">
 
 
