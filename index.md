@@ -22,8 +22,8 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 Program projects depth information collected by a Kinect Sensor onto sandbox, allowing users to manipulate the topography of the sand while the program reacts in real time.
 
 <img src="pics/IMG_6428.jpg" width ="300">
-<img src="pics/IMG_6429.jpg" width ="450">
-<img src="pics/IMG_6431.jpg" width ="450">
+<img src="pics/IMG_6429.jpg" width ="400">
+<img src="pics/IMG_6431.jpg" width ="300">
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68YPFD68sAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -34,8 +34,7 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources="particle_proj/particle_proj.pde particle_proj/Particle.pde"
-    style="display:block; margin-left:auto; margin-right:auto;"></canvas>
+<canvas data-processing-sources="particle_proj/particle_proj.pde particle_proj/Particle.pde particle_proj/cursor_proj/cursor_proj.pde" style="display:block; margin-left:auto; margin-right:auto;"></canvas>
 
 ## AP Computer Science 2017-2018 (10th grade)
 
