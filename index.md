@@ -13,10 +13,9 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 
 <a href="https://github.com/kyrakraft/cprtrainingapp" target="_blank">Code Repository</a>
 
-<img src="pics/cpr1.png" width="170">
-<img src="pics/cpr2.png" width="170">
-<img src="pics/cpr3.png" width="170">
-<img src="pics/cpr4.png" width="170">
+<img src="pics/cpr1.png" width="200">
+<img src="pics/cpr3.png" width="200">
+<img src="pics/cpr4.png" width="200">
 
 ### Topographic Sandbox
 Program projects depth information collected by a Kinect Sensor onto sandbox, allowing users to manipulate the topography of the sand while the program reacts in real time.
