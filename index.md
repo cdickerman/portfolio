@@ -21,9 +21,9 @@ App made in partnership with Children's Hospital Los Angeles to walk through the
 ### Topographic Sandbox
 Program projects depth information collected by a Kinect Sensor onto sandbox, allowing users to manipulate the topography of the sand while the program reacts in real time.
 
-<img src="pics/IMG_6429.jpg">
-<img src="pics/IMG_6430.jpg">
-<img src="pics/IMG_6431.jpg">
+<img src="pics/IMG_6428.png" width ="360">
+<img src="pics/IMG_6429.png" width ="560">
+<img src="pics/IMG_6431.png" width ="560">
 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68YPFD68sAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
