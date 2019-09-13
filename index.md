@@ -32,9 +32,8 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 <a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
 
-
 <script src="processing.min.js"></script>
-<canvas data-processing-sources="particle_proj/particle_proj.pde particle_proj/Particle.pde particle_proj/cursor_proj/cursor_proj.pde" style="display:block; margin-left:auto; margin-right:auto;"></canvas>
+<canvas data-processing-sources="danceprojection_web/danceprojection_web.pde danceprojection_web/Particle.pde"></canvas>
 
 ## AP Computer Science 2017-2018 (10th grade)
 
