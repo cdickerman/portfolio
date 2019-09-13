@@ -40,6 +40,8 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 ### This drawing program was my final project in AP Computer Science.
 
+<a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
+
 note: colors don’t transfer exactly to this embedding.
 
 <img src="pics/screen-0447.png">
