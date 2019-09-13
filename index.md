@@ -30,6 +30,8 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 ### Dance Concert visualization
 Two sets of visualizations used as background for pieces in the All School Dance Concert.
 
+<a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
+
 
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="particle_proj/particle_proj.pde particle_proj/Particle.pde particle_proj/cursor_proj/cursor_proj.pde" style="display:block; margin-left:auto; margin-right:auto;"></canvas>
@@ -40,7 +42,6 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 ### This drawing program was my final project in AP Computer Science.
 
-<a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
 
 note: colors don’t transfer exactly to this embedding.
 
