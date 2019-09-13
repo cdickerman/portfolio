@@ -38,7 +38,7 @@ Two sets of visualizations used as background for pieces in the All School Dance
 Drag mouse to interact with particles, click to reset.
 
 <script src="processing.min.js"></script>
-<canvas data-processing-sources="SpringAnimation/Ball.pde SpringAnimation/Spring.pde SpringAnimation/SpringAnimation.pde"></canvas>
+<canvas data-processing-sources="SpringAnimationCopy/Ball.pde SpringAnimationCopy/Spring.pde SpringAnimationCopy/SpringAnimation.pde"></canvas>
 
 Press space to toggle the spring.
 
@@ -53,7 +53,7 @@ note: colors don’t transfer exactly to this embedding.
 
 <img src="pics/screen-0447.png">
 
-
-
+<!--
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="Project/Project.pde Project/Polygon.pde Project/Ball.pde Project/Drawable.pde" style="display:block; margin-left:auto; margin-right:auto;"></canvas>
+-->
