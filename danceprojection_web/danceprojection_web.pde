@@ -14,10 +14,10 @@
 //KinectTracker tracker;
 //Kinect kinect;
 
- 
-int nparticles = 9222;
+
+int nparticles = 8222;
 ArrayList<Particle> particles = new ArrayList<Particle>();
- 
+
 Particle createParticle()
 {
   int r = (int)random(1, 3);
@@ -27,26 +27,26 @@ Particle createParticle()
   velocity.setMag(1);
   int c = color(random(50, 255), random(50, 255), random(50, 255));
   noStroke();
-  
+
   Particle p = new Particle(r, position, velocity, c, position.x, position.y);
   return p;
 }
 
-void setup() 
+void setup()
 {
-    size (800,600);
+    size (700,500);
     //fullScreen();
-    
+
     background(0);
-    
+
     for (int i = 0; i < nparticles; i++)
     {
       Particle p = createParticle();
       particles.add(p);
     }
-    
+
     background(0);
-    noCursor(); 
+    noCursor();
     /*
   kinect = new Kinect(this);
   tracker = new KinectTracker();
@@ -59,10 +59,10 @@ PVector current = new PVector(0,0);
 */
 
 
-void draw() 
+void draw()
 {
  background(2);//take this out for cool line drawing effect (might also need to remove bounces off walls)
- 
+
  for (Particle p : particles)
     {
       p.display();
@@ -70,9 +70,9 @@ void draw()
     }
  fill(100);
  ellipse(mouseX, mouseY, 10, 10);
- 
+
  //current = new PVector(tracker.getLerpedPos().x, tracker.getLerpedPos().y);
- 
+
  for (Particle p: particles)
   {
     /*
@@ -80,7 +80,7 @@ void draw()
     v.x *= ((width-500.0f)/kinect.width);
     v.y *= (height-620.0f)/kinect.height;
     */
-    
+
     //PVector push = new PVector(v.x-p.position.x, v.y-p.position.y); //subbed in tracker pos for mouse
     //PVector push = new PVector(mouseX-p.position.x, mouseY-p.position.y); //subbed in tracker pos for mouse
 
@@ -90,10 +90,10 @@ void draw()
     push.mult(.85/(sq(pushMag)));
     push.mult(sqrt(sq(current.x-prev.x)+sq(current.y-prev.y))); //is there a previous position// how to find
     */
-    
+
     //p.push(push);
     p.pull(pull);
-    
+
     //if (mouseX > 250 && mouseX < width-250 && mouseY < height-600)
     {
       PVector push2 = new PVector(mouseX-p.position.x, mouseY-p.position.y); //subbed in tracker pos for mouse
@@ -103,24 +103,24 @@ void draw()
       p.push(push2);
       p.pull(pull);
     }
-    
-    
-  
+
+
+
   }
-  
+
     //tracker.track();
- /* 
+ /*
    // Let's draw the raw location
     PVector v1 = tracker.getPos();
     fill(10);
     noStroke();
     ellipse(v1.x *((width-250.0f)/kinect.width), v1.y * ((height-620.0f)/kinect.height), 20, 20);
-  
+
     // Let's draw the "lerped" location
     PVector v2 = tracker.getLerpedPos();
     fill(5);
     noStroke();
-    ellipse(v2.x *((width-250.0f)/kinect.width), v2.y * ((height-620.0f)/kinect.height), 20, 20); 
+    ellipse(v2.x *((width-250.0f)/kinect.width), v2.y * ((height-620.0f)/kinect.height), 20, 20);
 
     prev = current;
     */
