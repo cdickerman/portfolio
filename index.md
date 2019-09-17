@@ -5,7 +5,6 @@
 
 ## Honors Computer Science Projects 2018-2019 (11th Grade)
 
-### Dance Projections
 ### CPR App
 App made in partnership with Children's Hospital Los Angeles to walk through the basic steps of CPR for educational purposes.
 
@@ -44,12 +43,9 @@ Press space to toggle the spring.
 
 ## AP Computer Science 2017-2018 (10th grade)
 
-* Kaleidoscope Project
+### Kaleidoscope Project
 
-### This drawing program was my final project in AP Computer Science.
-
-
-note: colors don’t transfer exactly to this embedding.
+This drawing program was my final project in AP Computer Science. Using matrices and transformations, users can create kaleidoscope drawings with a variety of shapes and colors.
 
 <img src="pics/screen-0447.png">
 
