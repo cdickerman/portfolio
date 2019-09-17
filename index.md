@@ -21,7 +21,7 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 
 <a href="https://github.com/cdickerman/portfolio/tree/master/Sandbox" target="_blank">Code Repository</a>
 
-<img src="pics/IMG_6428.jpg" width ="300">
+<img src="pics/IMG_6428. jpg" width ="300">
 <img src="pics/IMG_6431.jpg" width ="300">
 
 
@@ -37,15 +37,20 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 <a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
 
+
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="danceprojection_web/danceprojection_web.pde danceprojection_web/Particle.pde"></canvas>
 
 Drag mouse to interact with particles, click to reset.
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-T-DDrtdctU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
 <script src="processing.min.js"></script>
 <canvas data-processing-sources="SpringAnimation/Ball.pde SpringAnimation/Spring.pde SpringAnimation/SpringAnimation.pde"></canvas>
+-->
 
-Press space to toggle the spring.
 
 ## AP Computer Science 2017-2018 (10th grade)
 
