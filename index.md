@@ -21,7 +21,7 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 
 <a href="https://github.com/cdickerman/portfolio/tree/master/Sandbox" target="_blank">Code Repository</a>
 
-<img src="pics/IMG_6428. jpg" width ="300">
+<img src="pics/IMG_6428.jpg" width ="300">
 <img src="pics/IMG_6431.jpg" width ="300">
 
 
