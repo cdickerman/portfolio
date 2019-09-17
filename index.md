@@ -29,6 +29,10 @@ Program projects depth information collected by a Kinect Sensor onto sandbox, al
 ### Dance Concert visualizations
 Two sets of visualizations used as background for pieces in the All School Dance Concert.
 
+<a href="https://github.com/cdickerman/portfolio/tree/master/danceprojection_web" target="_blank">Code Repository for Particle Projections</a>
+
+<a href="https://github.com/cdickerman/portfolio/tree/master/SpringAnimationCopy" target="_blank">Code Repository for Spring Projections</a>
+
 <a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
 
 <script src="processing.min.js"></script>
@@ -46,6 +50,8 @@ Press space to toggle the spring.
 ### Kaleidoscope Project
 
 This drawing program was my final project in AP Computer Science. Using matrices and transformations, users can create kaleidoscope drawings with a variety of shapes and colors.
+
+<a href="https://github.com/cdickerman/portfolio/tree/master/Project" target="_blank">Code Repository</a>
 
 <img src="pics/screen-0447.png">
 
