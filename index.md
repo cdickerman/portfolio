@@ -33,7 +33,7 @@ Two sets of visualizations used as background for pieces in the All School Dance
 
 <a href="https://github.com/cdickerman/portfolio/tree/master/danceprojection_web" target="_blank">Code Repository for Particle Projections</a>
 
-<a href="https://github.com/cdickerman/portfolio/tree/master/SpringAnimationCopy" target="_blank">Code Repository for Spring Projections</a>
+<a href="https://github.com/cdickerman/portfolio/tree/master/SpringAnimation" target="_blank">Code Repository for Spring Projections</a>
 
 <a href="http://stem.marlborough.org/blog/dance-projections/" target="_blank">Click here to view an article featuring these programs.</a>
 
