@@ -147,27 +147,7 @@
       if (key == 's'){
         saveFrame();
       }
-        /*
-    if (key == 'b'){
-      red = (int)random(255);
-      green = (int)random(255);
-      blue = 240;
-    }
-    if (key == 'g'){
-      red = (int)random(255);
-      green = 240;
-      blue = (int)random(255);
-    }
-    if (key == 'r'){
-      red = 240;
-      green = (int)random(255);
-      blue = (int)random(255);
-    }
-    if(key == 'c'){
-      red = (int)random(255);
-      green = (int)random(255);
-      blue = (int)random(255);
-    }*/
+      
 }
   public void mouseDragged()
     {
@@ -228,11 +208,6 @@ private  int hue(float t, int transparency)
 }
 
 
-//public void keyPressed(){
-  //  for (Ball ball : balls)
-    //ball.changeType();
-//}
-
     private float x;
     private float y;
     private float vx;
@@ -252,11 +227,8 @@ private  int hue(float t, int transparency)
    // private AudioPlayer song;
     private int transparency = 255;
 
-
     ArrayList<Drawable> draws = new ArrayList<Drawable>();
-  //  ArrayList<Polygon> poly = new ArrayList<Polygon>();
-
-
+ 
       public static void main(String[] args)
       {
           main("Project");
